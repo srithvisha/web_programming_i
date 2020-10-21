@@ -3,9 +3,33 @@
 <title>Todo List 0.001</title>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" >
+<style>
+table{
+    font-family: Impact,Charcoal,sans-serif;
+    width: 50%;
+    float: right;
+}
+.w3-block w3-deep-purple w3-center
+{
+    width:50%;
+    margin-right;
+}
+.w3-table,.w3-table-all
+{
+    width:50%;
+    float:left;
+    margin-left:350px;
+}
+.w3-block{
+     width:50%;
+    float:left;
+    margin-left:350px;
+}
+</style>
 </head>
+
 <body>
-<h3 class="w3-block w3-teal w3-center">Basic Todo List, version 1.1</h3>
+<h3 class="w3-block w3-deep-purple w3-center">List of items</h3>
 <table class="w3-table w3-bordered w3-border">
 %for row in rows:
     <tr>
@@ -28,6 +52,6 @@
     </tr>
 %end
 </table>
-<a href="/new_item"><button class="w3-button w3-block w3-teal">New item...</button></a>
+<a href="/new_item"><button class="w3-button w3-block w3-deep-purple ">New item...</button></a>
 </body>
 </html>
